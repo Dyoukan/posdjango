@@ -18,5 +18,6 @@ from django.urls import path,include
 
 urlpatterns = [
     path('regex/', include("regex.urls")),
+    path('sandbox/', include("sandbox.urls")),
     path('admin/', admin.site.urls),
 ]

@@ -8,6 +8,6 @@ from regex.forms import RegexForm
 class IndexView(generic.FormView):
     template_name = "regex/index.html"
     form_class = RegexForm
-    
+
 def index(request):
     return HttpResponse("AAA")
